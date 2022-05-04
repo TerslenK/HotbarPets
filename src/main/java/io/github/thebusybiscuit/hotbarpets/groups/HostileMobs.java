@@ -36,7 +36,7 @@ public final class HostileMobs implements PetGroup {
                 new ItemStack(Material.STRING), SlimefunItems.GOLD_16K, new ItemStack(Material.STRING)
         }).register(plugin);
 
-        new GhastPet(plugin.getItemGroup(), new SlimefunItemStack("HOTBAR_PET_GHAST", PetTexture.GHAST_PET.getHash(), "&fGhast Pet", getName(), "&7Favourite Food: Fire Charge", "", "&fRight-Click: &7Launches Fireballs"), new ItemStack(Material.FIRE_CHARGE), new ItemStack[]{
+        new GhastPet(plugin, new SlimefunItemStack("HOTBAR_PET_GHAST", PetTexture.GHAST_PET.getHash(), "&fGhast Pet", getName(), "&7Favourite Food: Fire Charge", "", "&fRight-Click: &7Launches Fireballs"), new ItemStack(Material.FIRE_CHARGE), new ItemStack[]{
                 new ItemStack(Material.GHAST_TEAR), new ItemStack(Material.DIAMOND), new ItemStack(Material.GHAST_TEAR),
                 new ItemStack(Material.QUARTZ_BLOCK), new ItemStack(Material.BLAZE_POWDER), new ItemStack(Material.QUARTZ_BLOCK),
                 SlimefunItems.GOLD_24K, new ItemStack(Material.TNT), SlimefunItems.GOLD_24K
